@@ -1,0 +1,4 @@
+{
+  "serverUrl": "https://www.metaweather.com",
+  "apiUrl": "/api/location"
+}

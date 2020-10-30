@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "workbench.editor.enablePreview": false,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  // Set the default
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "eslint.nodePath": ".",
+  "debug.node.autoAttach": "on"
+}
